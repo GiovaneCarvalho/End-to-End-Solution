@@ -21,11 +21,11 @@ graph TD
     C -->|SQL Queries| D["🧠 Modelo de Recomendação"]
     D -->|Resultados e Insights| E["📊 Dashboard Power BI"]
 
-    classDef source fill:#f9f9f9,stroke:#333,stroke-width:2px;
-    classDef script fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
-    classDef db fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
-    classDef model fill:#fff3e0,stroke:#ff9800,stroke-width:2px;
-    classDef dash fill:#fce4ec,stroke:#e91e63,stroke-width:2px;
+    classDef source fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#333;
+    classDef script fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#333;
+    classDef db fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#333;
+    classDef model fill:#fff3e0,stroke:#ff9800,stroke-width:2px,color:#333;
+    classDef dash fill:#fce4ec,stroke:#e91e63,stroke-width:2px,color:#333;
 
     class A source;
     class B script;
